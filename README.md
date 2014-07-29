@@ -17,7 +17,7 @@ private void addShortcut() {
      
         Intent addIntent = new Intent();
         addIntent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, shortcutIntent);
-        addIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "HelloWorldShortcut");
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "•\Ž¦‚³‚ê‚éƒAƒvƒŠ–¼");
         addIntent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,
                 Intent.ShortcutIconResource.fromContext(getApplicationContext(),
                         R.drawable.ic_launcher));
